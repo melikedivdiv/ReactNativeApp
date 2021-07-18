@@ -1,4 +1,5 @@
 import {Header} from './Header/Header';
 import Icon from './Icon/Icon';
-
-export {Header,Icon}; 
+import  SearchInput  from "./Input/SearchInput";
+import Button from './Button/Button';
+export {Header,Icon,SearchInput,Button}; 

@@ -4,7 +4,7 @@
 
 import {Text, View} from 'react-native';
 import React from 'react';
-import Home from './screens/Home';
+import Home from './screens/Home/Home';
 
 class App extends React.Component {
   render() {

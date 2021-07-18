@@ -1,5 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+
 import Icons from '../../assets/icons';
 import {colors} from '../../config/colors';
 
