@@ -13,7 +13,7 @@ export const ButtonStyles = StyleSheet.create({
                 borderRadius: 28,
                 overflow: 'hidden',
             },
-        })
+        }),
 
     },
 

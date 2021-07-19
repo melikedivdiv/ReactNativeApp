@@ -16,6 +16,11 @@ export const homeStyles = StyleSheet.create({
         marginTop: 36,
         backgroundColor: colors.gray,
     },
+    Button: {
+        position: 'absolute',
+        bottom: 36,
+        end: 36,
+    },
 });
 
 export const CategoryObjectStyles = StyleSheet.create({
@@ -43,4 +48,5 @@ export const CategoryObjectStyles = StyleSheet.create({
         borderRadius: 4,
         backgroundColor: 'green',
     },
-})
+    
+});

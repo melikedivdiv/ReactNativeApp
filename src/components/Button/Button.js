@@ -13,10 +13,12 @@ import PropTypes from 'prop-types';
 class Button extends React.Component {
   render() {
     const TouchableComponent =
-      Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedback;
-    const {icon, onPress} = this.props;
+       Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedback;
+       
+    const {icon, onPress,style} = this.props;
+
       return (
-      <View style = {styles.container}> 
+      <View style = {[styles.container, style]}> 
         <TouchableComponent onPress = {onPress} style = {styles.touchable}>
           <View style = {styles.touchableContent}>
             <Icon name = {icon} tintColor = 'white'/>
@@ -30,5 +32,6 @@ class Button extends React.Component {
 Button.propTypes = {
     icon: PropTypes.string,
     onPress: PropTypes.func,
+    style: PropTypes.any,
 }
 export default Button;
